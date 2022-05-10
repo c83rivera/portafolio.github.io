@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Oleo', sans-serif;
+  overflow-x: hidden;
+}
+
+.wrapper{
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(103, 123, 38, 0.449);
+  color:rgb(255, 255, 255)
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  padding: 3em;
+}
+
+.brand{
+  margin-top: 10px;
+  font-size: 4em;
+  color: black;
+}
+
+.brand span{
+  color: rgb(117, 62, 169);
+  font-size: 1em;
+}
+
+.menu{
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+}
+
+.menu li{
+  list-style: none;
+}
+
+.menu a{
+  color: rgb(18, 18, 16);
+  font-size: 2em;
+  text-decoration: none ;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.menu a:hover{
+  background-color: black;
+  color: aliceblue;
+  transition: ease-in 0.6s;
+}
+
+.main{
+  margin: 0 auto;
+  width: 80vw;
+  height: 80vw;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  /*align-items: center;*/
+}
+
+h1{
+  font-size: 3em;
+  color: rgba(165, 42, 42, 0.384);
+}
+
+span{
+  color:rgba(103, 123, 38, 0.449);
+}
+
+.main img{
+  width: 300px;
+  border: 7px solid brown;
+  height: 350px;
+}
+
+.acerca{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100vw;
+  align-items: center;
+}
+
+.acerca img{
+  width: 100%;
+  grid-column: 1/5;
+  height: 350px;
+}
+
+.acerca-info{
+  grid-column: 5/10;
+  padding: 5em;
+}
+
+.acerca-info h2{
+  font-size: 2em;
+  color: brown;
+}
+
+.divider{
+  height: 4px;
+  width: 60px;
+  background-color: blue;
+  margin-top: 20px;
+}
+
+.portafolio{
+  display: grid;
+  justify-content: center;
+  width: 105vw;
+  height: 60vh;
+  background-color: rgba(103, 123, 38, 0.449);
+  color:rgb(255, 255, 255)
+}
+
+.portafolio-headin img{
+  justify-content: center;
+  width: 22%;
+  border: 7px solid brown;
+  height: 180px;
+  cursor: pointer;
+}
+
+.contacto_title img{
+  justify-content: space-between;
+  width: 3%;
+  border: 1px solid rgb(3, 3, 3);
+  height: 40px;
+  cursor: pointer;
+}
